@@ -1,4 +1,4 @@
-import myImage from "/Users/apple/Documents/Desktop/quantumball/src/images/footerbg3.jpg";
+import myImage from "../images/footerbg3.jpg";
 import Socials from "./Socials";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
