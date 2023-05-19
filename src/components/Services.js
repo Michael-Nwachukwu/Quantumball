@@ -1,5 +1,7 @@
 import { useState } from "react";
-import myImage from "/Users/apple/Documents/Desktop/quantumball/src/images/servicebg1.jpg";
+// import myImage from "/Users/apple/Documents/Desktop/quantumball/src/images/servicebg1.jpg";
+// import myImage from "/Users/apple/Documents/Desktop/quantumball/src/images/servicebg1.jpg"
+import myImage from "../images/servicebg1.jpg"
 import { motion, AnimatePresence, variants,  useInView  } from "framer-motion";
 import Button1 from "./elements/Button1";
 import ServiceCard from "./elements/ServiceCard";
