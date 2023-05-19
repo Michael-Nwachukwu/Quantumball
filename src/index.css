@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+/* base styles */
+* {
+  margin: 0;
+  /* font-family: "Quicksand"; */
+  /* font-family: 'Space Grotesk', sans-serif; */
+  /* font-family: 'Sora', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.burger {
+  display: relative;
+  font-size: 1.2em;
+  cursor: pointer;
+  /* setting it to 1 to stack it forward*/
+  z-index: 1;
+}
+
+.burger span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #eee;
+  margin-bottom: 3px;
+}
+
+.bg-dim {
+  opacity: 0.5;
+}
+.heads {
+  background: rgb(193, 185, 185);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 185, 185, 0.8855917366946778) 0%,
+    rgba(225, 225, 225, 1) 60%
+  );
+  
+}
+
+/* .service {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  animation-duration: 5000;
+}
+
+.service.active {
+  opacity: 1;
+} */
+
+/* .heads {
+  background: rgb(193,185,185);
+  background: linear-gradient(42deg, rgba(193,185,185,0.8855917366946778) 0%, rgba(225,225,225,1) 60%);
+} */
