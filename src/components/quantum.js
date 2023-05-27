@@ -14,7 +14,7 @@ const Quantum = () => {
                         Get Started !
                     </h1>
 
-                    <p className="block font-light text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eos ipsum, ipsam quasi reiciendis aut dignissimos illum, minus nesciunt deleniti, sequi magni id perspiciatis inventore corrupti enim. Asperiores, voluptate amet?</p>
+                    <p className="block font-light text-black">Im checking if this works Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eos ipsum, ipsam quasi reiciendis aut dignissimos illum, minus nesciunt deleniti, sequi magni id perspiciatis inventore corrupti enim. Asperiores, voluptate amet?</p>
 
 
                     <p className="block font-light text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eos ipsum, ipsam quasi reiciendis aut dignissimos illum, minus nesciunt deleniti, sequi magni id perspiciatis inventore corrupti enim. Asperiores, voluptate amet?</p>
